@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Catch Fish</title>
+</head>
+<body>
+    <header>
+        <h1>Catch Fish</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register Fisherman</a>
+            <a href="loans.html">Loans</a>
+            <a href="insurance.html">Insurance</a>
+            <a href="market_access.html">Market Access</a>
+            <a href="market_prediction.html">Market Prediction</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h3>Fisherman ID: Sample123</h3>
+        <p>Use the Fisherman ID to log in.</p>
+        <div id="map" style="height: 400px;"></div>
+        <table id="availabilityTable">
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Fish Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Location A</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Location B</td>
+                    <td>Not Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 MATSYA</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>
